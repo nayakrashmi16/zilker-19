@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Landing%20Page_files/landingpage.css">
+    <link rel="stylesheet" href="Landing%20Page_files/grid.css">
+    <link href="Landing%20Page_files/css.css" rel="stylesheet">
+    <title>Landing Page</title>
+</head>
+
+<body>
+	<div class="app-heading-card-container col-sm-8 col-md-8 col-lg-8">
+		<h1 class="app-heading-card-container__app-name">PennyWise</h1>
+		<pre class="app-heading-card-container__app-tagline">Manage · Split · Analyse</pre>
+	</div>
+    <div class="login-signup-card-container col-sm-4 col-md-4 col-lg-4">
+        <div class="login-signup-container">
+            <div class="login-container">
+                <h2>Login</h2>
+                <form name="login-form" onsubmit="return loginFormValidate();" action="../../ExpenseAppWeb/LoginServlet" method="post">
+                    <div class="form-container">
+                        <input name="username" placeholder="Enter your username.." class="input" value="rashmi" type="text">
+                        <input name="password" placeholder="Enter your password.." class="input" type="password">
+                        <input name="submit" value="Login" class="submit-button" type="submit">
+                    </div>
+                </form>
+                <div class="login-circle-button" onclick="loginOnclick()">
+                	<img alt="arrow-up" src="Landing%20Page_files/arrow-up.png">
+                </div>
+            </div>
+            <div class="signup-container">
+                <h2>Signup</h2>
+                <form name="signup-form" onsubmit="return signupFormValidate();" action="../../ExpenseAppWeb/SignUpServlet" method="post">
+                    <div class="form-container">
+                        <input name="username" placeholder="Enter a username.." class="input" type="text">
+                        <input name="email-id" placeholder="Enter your email-id.." class="input" value="rashmi" type="email">
+                        <input name="password" placeholder="Enter a password.." class="input" type="password">
+                        <input name="confirm-password" placeholder="Confirm your password.." class="input" type="password">
+                        <input name="submit" value="Signup" class="submit-button" type="submit">
+                    </div>
+                </form>
+                <div class="signup-circle-button" onclick="signupOnclick()">
+                	<img alt="arrow-up" src="Landing%20Page_files/arrow-up.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="app-features-card-container col-sm-12 col-md-12 col-lg-12">
+   		<div class="app-features-card-container__scroll-msg-container col-sm-12 col-md-12 col-lg-12" onclick="alert(">
+   			<p class="scroll-msg-container__message">Hover here to scroll down!</p>
+   			<div class="scroll-msg-container__arrow"><img alt="scroll-arrow" src="Landing%20Page_files/scroll-arrow.png"></div>
+   		</div>
+    </div>
+    
+    <script src="Landing%20Page_files/landingpage.js"></script>
+
+
+</body></html>
