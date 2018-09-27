@@ -1,0 +1,82 @@
+@charset "UTF-8";
+.new-expense-form__split-expense-members {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	height: 200px;
+	overflow-y: scroll; 
+}
+
+.split-member-details-container {
+	display: flex;	
+	margin: 10px;
+}
+
+.split-member-details-container-checkbox {
+	margin-right: 10px;
+}
+
+.split-member-details-container-text {
+	color: white;
+}
+
+.split-member-amount {
+	display: none;
+	margin-left: 10px;
+	width: 120px;
+	border-radius: 5px;
+	height: 20px;
+	padding: 10px;
+	font-size: 12px;s
+} 
+
+.payment-options-container {
+	display: flex;
+	margin: 10px;
+	flex-wrap: wrap;
+}
+
+.payment-options-container-text {
+	color: white;
+	margin: 5px;
+}
+
+.payment-options-container-dropdown {
+	margin: 5px;
+}
+
+.expense-info-container__expense-description {
+	font-size: 25px;
+	margin: 5px;
+}
+
+.expense-info-container__expense-payer {
+	font-size: 15px;
+	color: grey;
+	margin: 5px;
+}
+
+.expense-preview-card__balance-container {
+	font-size: 20px;
+}
+
+.balance-container__money-lent {
+	color: #00cc00;
+}
+
+.balance-container__money-borrowed {
+	color: #ff3300;
+}
+
+.balance-container__not-involved {
+	color: #7a7a52;
+}
+
+.modal-content {
+	width: 60%;
+}
+
+.modal-content__heading {
+	font-size: 20px;
+}
+

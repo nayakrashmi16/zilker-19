@@ -1,0 +1,45 @@
+venn diagram - center using flex
+align-self exists, why no justify-self?????
+
+
+naming of classes
+float, height issue, clear
+DROPDOWN
+on hover for Dropdown
+give fixed height,width for options, make inline block.
+
+if children float, no height and width for parent. how to give????
+
+FORM
+size of h1, make x icon absolute
+spacing of inner divs
+length of submit button
+div {checkbox, label}
+container - equal sizes
+
+use max width instead of min width
+
+declare all classes for small, medium and large
+
+
+
+ 
+cubic - bezier - transition durations
+
+Ex:
+side menu
+loader
+absolute: top:0 and bottom:0-what happens????????????????????
+
+
+JAVASCRIPT:
+
+Use configurable,writable,enumerable is js objects
+
+Do deepclone --- clone a js object - deep clone :P
+
+This takes context of surrounding scope
+call(object) function to associate this with object
+
+make private members, and make sure no new properties can be added to the object, no global variables
+

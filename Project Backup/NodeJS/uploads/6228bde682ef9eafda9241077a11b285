@@ -1,0 +1,5 @@
+npm init - initialize folder as node pkg
+package.json - lists the dependencies 
+node_modules - need not be committed
+npm ls - shows all installed pkgs
+npm prune - removes installed pkgs which are not needed

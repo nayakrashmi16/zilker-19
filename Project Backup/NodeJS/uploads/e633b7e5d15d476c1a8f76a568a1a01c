@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "author": "rashmi",
+      "message": "Can you suggest some of the popular restaurants around me?",
+      "time": "10:52AM",
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
